@@ -23,6 +23,8 @@ public class Sample extends HelperClass {
 
 		WebElement btn = driver.findElement(By.name("login"));
 		btnclk(btn);
+		
+		toclose();
 
 	}
 
